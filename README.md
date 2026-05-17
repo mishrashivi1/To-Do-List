@@ -1,44 +1,50 @@
-# To-Do-list
-📝 To-Do List App – A simple and responsive to-do list for managing daily tasks. Features: Add, edit, delete, and mark tasks as complete. Tasks are saved in local storage.
-📝 To-Do List
+✅ To-Do List  (Local Storage)
 
-A simple and responsive To-Do List application to manage daily tasks.
+A simple To-Do List web app built using HTML, CSS, and JavaScript that allows users to add, delete, and persist tasks using localStorage.
 
 🚀 Features
 
-Add, edit, and delete tasks
+➕ Add new tasks
+❌ Delete tasks
+💾 Data stored in browser (localStorage)
+🔄 Tasks remain after page reload
+🎯 Simple and clean UI
 
-Mark tasks as complete/incomplete
+🧠 What I Learned
 
-Tasks saved in local storage (data persists after refresh)
-
-Clean and minimal UI
-
-Responsive design for mobile and desktop
+DOM manipulation (create, update, delete elements)
+Using localStorage to persist data
+Handling user input and events
+Managing dynamic lists in JavaScript
 
 🛠️ Tech Stack
 
-Frontend: HTML, CSS, JavaScript
-(Replace with React, Tailwind, etc. if you used them)
+🌐 HTML
+🎨 CSS
+⚡ JavaScript (DOM + localStorage)
+📸 Preview
 
-Storage: Local Storage / Database (if applicable)
-
-📂 Project Setup
-
-Clone the repository
-
-git clone https://github.com/mishrashivi1/To-Do-lis
-cd todo-list
+<img width="1920" height="1035" alt="Screenshot (72)" src="https://github.com/user-attachments/assets/f4b4f1d8-5822-4bb9-b4e6-cfe8b8186ac0" />
+<img width="1920" height="1027" alt="Screenshot (71)" src="https://github.com/user-attachments/assets/bd10c3c2-bf64-4e95-891b-9a265eb55e20" />
 
 
-Open index.html in your browser (or run with Live Server if using VS Code)
+⚙️ How to Run
 
+Clone the repository:
+git clone https://github.com/mishrashivi1/To-Do-List
+Open To-Do-List
+Run by opening index.html in your browser
 
+📂 Project Structure
 
-🌟 Future Improvements
+/project-folder
+ ├── index.html
+ ├── style.css
+ ├── script.js
+💡 Future Improvements
 
-User authentication
-
-Dark mode
-
-Task categories & due dates
+✔️ Mark task as completed
+✏️ Edit tasks
+🗂️ Filter (All / Completed / Pending)
+🧹 Clear all tasks button
+📱 Make it fully responsive
